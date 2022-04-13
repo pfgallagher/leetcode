@@ -9,7 +9,3 @@ const countKDifference = (nums: number[], k: number): number => {
 	}
 	return count;
 };
-
-console.log(countKDifference([1, 2, 2, 1], 1)); // 4
-console.log(countKDifference([1, 3], 3)); // 0
-console.log(countKDifference([3, 2, 1, 5, 4], 2)); // 3
